@@ -1,4 +1,5 @@
-Jenkins Text Finder plugin to look for specific words in files and in jenkins console output to update the job status.
+Jenkins Text Finder plugin to look for specific words in files and in jenkins console output to update the job status based on those words.
+Kind of similar to Console Output Parser.
 
 .*(?i)failed.*|.*(?i)error.*
 above argument is to look for the words failed and error.
